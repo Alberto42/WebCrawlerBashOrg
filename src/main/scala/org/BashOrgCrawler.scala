@@ -41,6 +41,8 @@ object BashOrgCrawler {
     finally {
       writer.close()
     }
+
+    println("All dialogs have been fetched successfully!")
   }
 
   private def crawl(expectedDialogsCount: Int) = {
